@@ -1,0 +1,76 @@
+{
+    "schemas":[
+        {
+            "welcome": {
+                "fields": [
+                    { "name": "message", "type": "text", "label": "Message" },
+                    { "name": "recordId", "type": "number", "label": "Record ID" }
+                ]
+            },
+            "socialLinks": {
+                "fields": [
+                    { "name": "id", "type": "text", "label": "ID" },
+                    { "name": "title", "type": "text", "label": "Title" },
+                    { "name": "url", "type": "text", "label": "URL" },
+                    { "name": "icon", "type": "text", "label": "Icon" },
+                    { "name": "order", "type": "number", "label": "Display Order" },
+                    { "name": "active", "type": "boolean", "label": "Active Status" }
+                ]
+            },
+            "profileInfo": {
+                "fields": [
+                    { "name": "id", "type": "text", "label": "ID" },
+                    { "name": "name", "type": "text", "label": "Name" },
+                    { "name": "bio", "type": "text", "label": "Bio" },
+                    { "name": "avatarUrl", "type": "text", "label": "Avatar URL" },
+                    { "name": "theme", "type": "text", "label": "Theme" }
+                ]
+            }
+        }
+    ],
+    "records":[
+        {
+            "welcome":[
+                {
+                    "message": "Hello from loombolt DB.",
+                    "recordId": 1
+                }
+            ],
+            "profileInfo": [
+                {
+                    "id": "default",
+                    "name": "John Doe",
+                    "bio": "Digital creator & web developer",
+                    "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+                    "theme": "default"
+                }
+            ],
+            "socialLinks": [
+                {
+                    "id": "twitter",
+                    "title": "Twitter",
+                    "url": "https://twitter.com/username",
+                    "icon": "twitter",
+                    "order": 1,
+                    "active": true
+                },
+                {
+                    "id": "instagram",
+                    "title": "Instagram",
+                    "url": "https://instagram.com/username",
+                    "icon": "instagram",
+                    "order": 2,
+                    "active": true
+                },
+                {
+                    "id": "github",
+                    "title": "GitHub",
+                    "url": "https://github.com/username",
+                    "icon": "github",
+                    "order": 3,
+                    "active": true
+                }
+            ]
+        }
+    ]
+}
