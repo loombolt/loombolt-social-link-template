@@ -16,7 +16,7 @@ const SocialLink = [
   {
     id: 'twitter',
     title: 'Twitter',
-    url: process.env.NEXT_PUBLIC_TWITTER_URL || 'https://twitter.com/username',
+    url: process.env.NEXT_PUBLIC_TWITTER_URL || 'https://twitter.com/loombolt',
     icon: <Twitter className="h-5 w-5" />,
     order: 1,
     active: true
@@ -32,7 +32,7 @@ const SocialLink = [
   {
     id: 'youtube',
     title: 'Youtube',
-    url: process.env.NEXT_PUBLIC_YOUTUBE_URL || 'https://youtube.com/username',
+    url: process.env.NEXT_PUBLIC_YOUTUBE_URL || 'https://youtube.com/loombolt',
     icon: <Youtube className="h-5 w-5" />,
     order: 3,
     active: true
